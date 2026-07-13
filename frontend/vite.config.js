@@ -9,7 +9,7 @@ export default defineConfig({
     host: true,
     proxy: {
       '/api': {
-        target: 'http://localhost:5000',
+        target: 'https://ai-sakhi-4xs9.onrender.com',
         changeOrigin: true,
         secure: false,
       },

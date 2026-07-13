@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 // Base URL comes from .env (VITE_API_BASE_URL). Falls back to local backend.
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:5000'
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'https://ai-sakhi-4xs9.onrender.com'
 
 export const apiClient = axios.create({
   baseURL: API_BASE_URL,
